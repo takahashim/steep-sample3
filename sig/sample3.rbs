@@ -2,5 +2,8 @@
 
 # Classes
 class Sample3
-  def foo: (Integer | nil) -> Integer
+  @n: (Integer | nil)
+
+  def initialize: (Integer | nil) -> void
+  def foo: -> Integer
 end
