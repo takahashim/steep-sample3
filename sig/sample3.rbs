@@ -1,0 +1,6 @@
+# TypeProf 0.21.2
+
+# Classes
+class Sample3
+  def foo: (Integer | nil) -> Integer
+end
